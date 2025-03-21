@@ -9,5 +9,8 @@
     "content_scripts": [{
         "matches": ["*://*.kick.com/*"],
         "js": ["/content/content.js"]
-    }]
+    }],
+    "browser_specific_settings": {
+      "gecko": {"id": "akagir27@gmail.com"}
+  }
 }
